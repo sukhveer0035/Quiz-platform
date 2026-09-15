@@ -1,0 +1,104 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface-bright: #353944;
+  --color-tertiary: #e4ffe2;
+  --color-on-secondary-fixed: #2c0051;
+  --color-on-background: #dfe2f1;
+  --color-inverse-surface: #dfe2f1;
+  --color-on-error-container: #ffdad6;
+  --color-error: #ffb4ab;
+  --color-on-secondary: #490080;
+  --color-outline-variant: #3a494b;
+  --color-surface-container-low: #171b26;
+  --color-on-primary-container: #006a70;
+  --color-on-primary-fixed-variant: #004f53;
+  --color-on-tertiary-fixed-variant: #005321;
+  --color-background: #0f131d;
+  --color-tertiary-container: #63f789;
+  --color-surface-container-high: #262a35;
+  --color-inverse-on-surface: #2c303b;
+  --color-surface-dim: #0f131d;
+  --color-on-secondary-fixed-variant: #6900b3;
+  --color-primary-container: #00f2fe;
+  --color-primary-fixed: #6ff6ff;
+  --color-on-surface-variant: #b9cacb;
+  --color-surface-tint: #00dce6;
+  --color-on-surface: #dfe2f1;
+  --color-on-primary-fixed: #002022;
+  --color-tertiary-fixed: #6bff8f;
+  --color-primary-fixed-dim: #00dce6;
+  --color-on-tertiary: #003915;
+  --color-on-tertiary-fixed: #002109;
+  --color-surface-container-lowest: #0a0e18;
+  --color-secondary-fixed-dim: #ddb7ff;
+  --color-surface-variant: #313540;
+  --color-surface-container: #1c1f2a;
+  --color-tertiary-fixed-dim: #4ae176;
+  --color-on-tertiary-container: #006f30;
+  --color-on-error: #690005;
+  --color-secondary: #ddb7ff;
+  --color-secondary-container: #6f00be;
+  --color-surface: #0f131d;
+  --color-error-container: #93000a;
+  --color-outline: #849495;
+  --color-surface-container-highest: #313540;
+  --color-inverse-primary: #00696f;
+  --color-on-primary: #00373a;
+  --color-on-secondary-container: #d6a9ff;
+  --color-secondary-fixed: #f0dbff;
+  --color-primary: #e0fdff;
+
+  --font-display-hero: 'Space Grotesk', sans-serif;
+  --font-display-hero-mobile: 'Space Grotesk', sans-serif;
+  --font-headline-lg: 'Space Grotesk', sans-serif;
+  --font-headline-lg-mobile: 'Space Grotesk', sans-serif;
+  --font-headline-md: 'Space Grotesk', sans-serif;
+  --font-headline-sm: 'Space Grotesk', sans-serif;
+  --font-body-lg: 'Plus Jakarta Sans', sans-serif;
+  --font-body-md: 'Plus Jakarta Sans', sans-serif;
+  --font-body-sm: 'Plus Jakarta Sans', sans-serif;
+  --font-label-md: 'Plus Jakarta Sans', sans-serif;
+  --font-code-inline: 'JetBrains Mono', monospace;
+  --font-telemetry-counter: 'JetBrains Mono', monospace;
+  --font-label-caps: 'JetBrains Mono', monospace;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f131d;
+    color: #dfe2f1;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.arcade-grid-bg {
+  background-image:
+    radial-gradient(circle at 50% 0%, rgba(0, 242, 254, 0.08) 0%, transparent 40%),
+    radial-gradient(circle at 85% 20%, rgba(111, 0, 190, 0.07) 0%, transparent 35%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 100%, 24px 24px, 24px 24px;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "TechPulse // Quiz Platform",
+  "description": "High-precision engineering and technical current affairs quiz platform with live telemetry, 1v1 arenas, and architecture debriefs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
